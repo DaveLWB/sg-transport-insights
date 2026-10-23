@@ -37,3 +37,7 @@ UI Layer: SGTransportInsights
 Data layer: SGTransportInsights_CS
 - Consume rest API to retrieve carpark availability data (https://api.data.gov.sg/v1/transport/carpark-availability?date_time={date_time})
 - Implement reusable action that calls the API
+
+## Successful Terraform configuration and validation output
+<img width="2342" height="1212" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
+
