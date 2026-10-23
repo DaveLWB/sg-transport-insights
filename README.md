@@ -1,5 +1,8 @@
 # sg-transport-insights
-Outsystems 11 public data dashboard with AWS IaC and automated testing
+Outsystems 11 public data dashboard with AWS IaC and automated testing - Simple dashboard that displays data pulled from carpark availability API.
+URL: https://personal-zqhxbmd9.outsystemscloud.com/SGTransportInsights/Admindashboard?_ts=639283679558137135
+**During the initial load of the page, it might take slightly longer to load, but subsequent refresh of the page will not have delays
+<img width="1684" height="844" alt="image" src="https://github.com/user-attachments/assets/f5c97372-cb54-45a7-b247-65d610c54c65" />
 
 # Singapore Transport Insights
 
