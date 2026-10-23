@@ -38,7 +38,8 @@ Data layer: SGTransportInsights_CS
 
 # Infrastructure as Code Approach
 
-- Refer to docs/: iac-approach.md
+- Refer to docs/: iac-approach.md for information
+- Refer to infrastructure/terraform for config files
 - Terraform configuration and validation output:
 <img width="2000" height="1000" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
 
