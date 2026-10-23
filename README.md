@@ -5,11 +5,13 @@
 - **During the initial load of the page, it might take slightly longer to load, but subsequent refresh of the page will not have delays
 <img width="1684" height="844" alt="image" src="https://github.com/user-attachments/assets/f5c97372-cb54-45a7-b247-65d610c54c65" />
 
-# Infrastructure as Code Approach
+## Technology stack
 
-- Refer to docs/: iac-approach.md
-- Successful Terraform configuration and validation output:
-<img width="2000" height="1000" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
+- OutSystems 11
+- data.gov.sg REST API
+- Terraform
+- AWS
+- Git
 
 ## Project objectives
 
@@ -19,19 +21,10 @@
 - Add automated testing.
 - Define required AWS infrastructure as code.
 
-## Technology stack
-
-- OutSystems 11
-- data.gov.sg REST API
-- Terraform
-- AWS
-- Git
-
 ## Project structure
 
 - docs/: architecture and technical documentation
 - infrastructure/terraform/: AWS infrastructure code
-- tests/: automated test assets
 
 ## Architecture
 
@@ -42,6 +35,12 @@ UI Layer: SGTransportInsights
 Data layer: SGTransportInsights_CS
 - Consume rest API to retrieve carpark availability data (https://api.data.gov.sg/v1/transport/carpark-availability?date_time={date_time})
 - Implement reusable action that calls the API
+
+# Infrastructure as Code Approach
+
+- Refer to docs/: iac-approach.md
+- Terraform configuration and validation output:
+<img width="2000" height="1000" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
 
 ## Automated Testing
 - Automated testing was done using postman by executing JavaScript assertions after receiving a response.
