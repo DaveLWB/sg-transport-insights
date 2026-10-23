@@ -29,12 +29,12 @@
 ## Architecture
 
 UI Layer: SGTransportInsights
-- contains dashboard to display data from API
-- has a depndency on SGTransportInsights_CS which exposes reusable logic to retrieve data via API
+- Contains dashboard with basic functionalities (search, sort, navigation) to display data
+- Has dependency on SGTransportInsights_CS which exposes reusable logic to retrieve data via API
 
 Data layer: SGTransportInsights_CS
 - Consume rest API to retrieve carpark availability data (https://api.data.gov.sg/v1/transport/carpark-availability?date_time={date_time})
-- Implement reusable action that calls the API
+- Contains reusable logic that calls the API intended to be consumed by others modules to fetch the data
 
 # Infrastructure as Code Approach
 
