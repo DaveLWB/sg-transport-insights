@@ -22,14 +22,6 @@ The application is developed and published using OutSystems Service Studio. Wher
 
 Terraform configuration is formatted and validated before any infrastructure changes are applied. When AWS deployment is approved, a Terraform plan is reviewed before applying changes.
 
-Application tests cover the data.gov.sg integration, application logic, data display, pagination, error handling, and relevant user interactions.
-
 ## 6. Limitations and trade-offs
 
 Using OutSystems Cloud reduces infrastructure administration and allows development to focus on application functionality. The trade-off is that the project cannot independently provision or manage the underlying OutSystems platform infrastructure through its own Terraform configuration.
-
-The Terraform configuration provided in this repository applies only to the explicitly identified project-owned AWS resource. It must not be represented as a complete IaC definition of OutSystems Cloud.
-
-## 7. Assumptions
-
-The application is hosted on OutSystems 11 Cloud. The exact environment entitlement, AWS resource requirements, and assessment acceptance criteria must be confirmed before provisioning additional resources.
