@@ -39,12 +39,12 @@ Data layer: SGTransportInsights_CS
 - Implement reusable action that calls the API
 
 ## Successful Terraform configuration and validation output
-<img width="800" height="800" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
+<img width="2000" height="1000" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
 
 ## Automated Testing
 - Automated testing was done using postman by executing JavaScript assertions after receiving a response.
 - These checks verify the HTTP status, JSON format, top-level response structure, and nested carpark data
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ddcd6512-24c9-499f-b725-6f349ce5fe88" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/ddcd6512-24c9-499f-b725-6f349ce5fe88" />
 <img width="2054" height="796" alt="image" src="https://github.com/user-attachments/assets/ea9e4e6a-bc53-4c65-b8b8-82636161e784" />
 
 
