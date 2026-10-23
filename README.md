@@ -24,7 +24,7 @@
 ## Project structure
 
 - docs/: architecture and technical documentation
-- infrastructure/terraform/: AWS infrastructure code
+- infrastructure/terraform/: Infrastructure code
 
 ## Architecture
 
