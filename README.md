@@ -1,11 +1,15 @@
 # Singapore Transport Insights
+
 - Outsystems 11 public data dashboard with AWS IaC and automated testing - Simple dashboard that displays data pulled from carpark availability API.
 - URL: https://personal-zqhxbmd9.outsystemscloud.com/SGTransportInsights/Admindashboard?_ts=639283679558137135
 - **During the initial load of the page, it might take slightly longer to load, but subsequent refresh of the page will not have delays
 <img width="1684" height="844" alt="image" src="https://github.com/user-attachments/assets/f5c97372-cb54-45a7-b247-65d610c54c65" />
 
 # Infrastructure as Code Approach
-Refer to docs/: iac-approach.md
+
+- Refer to docs/: iac-approach.md
+- Successful Terraform configuration and validation output:
+<img width="2000" height="1000" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
 
 ## Project objectives
 
@@ -38,9 +42,6 @@ UI Layer: SGTransportInsights
 Data layer: SGTransportInsights_CS
 - Consume rest API to retrieve carpark availability data (https://api.data.gov.sg/v1/transport/carpark-availability?date_time={date_time})
 - Implement reusable action that calls the API
-
-## Successful Terraform configuration and validation output
-<img width="2000" height="1000" alt="Screenshot 2026-10-22 223341" src="https://github.com/user-attachments/assets/03bb0dad-ccef-47b9-bb3f-cf2a9bc67160" />
 
 ## Automated Testing
 - Automated testing was done using postman by executing JavaScript assertions after receiving a response.
