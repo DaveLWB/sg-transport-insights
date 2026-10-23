@@ -28,6 +28,12 @@ using public data from data.gov.sg.
 - infrastructure/terraform/: AWS infrastructure code
 - tests/: automated test assets
 
-## Status
+## Architecture
 
-Development in progress.
+UI Layer: SGTransportInsights
+- contains dashboard to display data from API
+- has a depndency on SGTransportInsights_CS which exposes reusable logic to retrieve data via API
+
+Data layer: SGTransportInsights_CS
+- Consume rest API to retrieve carpark availability data (https://api.data.gov.sg/v1/transport/carpark-availability?date_time={date_time})
+- Implement reusable action that calls the API
